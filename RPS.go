@@ -20,7 +20,7 @@ r := c[rand.Intn(3)]
 //fmt.Println(c[rand.Intn(3)])
 if choise == r {
 fmt.Println("empate")
-} else if choise == "Rock" && r== "Paper"{
+} else if choise == "Rock" && r == "Paper"{
 fmt.Println("perdeste")
 }
 }
